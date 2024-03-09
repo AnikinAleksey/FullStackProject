@@ -1,13 +1,18 @@
-
-import './App.css';
+import './App.css'
+import Content from './components/Content'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
-  return (
-    <div className="App">
-      Hello world
-          <button type="button">Click Me</button>
-    </div>
-  );
+	return (
+		<>
+			<div className='app'>
+				<Header />
+				<Content />
+				<Footer />
+			</div>
+		</>
+	)
 }
 
-export default App;
+export default App
